@@ -1,0 +1,42 @@
+package operaciones;
+
+public class Suma 
+{
+	int a;
+	int b;
+	public division()
+	{
+		this.a = 0;
+		this.b = 0;
+	}
+	public Division(int a , int b)
+	{
+		this.a = a;
+		this.b = b;
+	}
+	
+	public int getA()
+	{
+		return this.a;
+	}
+	
+	public int setA(int a)
+	{
+		return this.a = a;
+	}
+	
+	public int getB()
+	{
+		return this.b;
+	}
+	
+	public int setB(int b)
+	{
+		return this.b = b;
+	}
+	
+	public int dividir()
+	{
+		return this.a / this.b;
+	}
+}
